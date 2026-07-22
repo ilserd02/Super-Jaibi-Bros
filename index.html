@@ -6,19 +6,17 @@
     <link href="index.css" rel="stylesheet" />
     <link href="Theme/styles.css" rel="stylesheet" />
     <style>
-        /* Oculta la barra del menú del editor, mods y controles */
-        #controls, 
-        .UserWrappr, 
-        .UserWrapprNav,
-        .UserWrapprHeader {
+        /* Oculta únicamente las pestañas/opciones de Level Editor y Mods */
+        .UserWrapprTabHeader[data-author="LevelEditor"],
+        .UserWrapprTabHeader[data-author="Mods"],
+        div[title*="Editor"],
+        div[title*="Mods"] {
             display: none !important;
         }
 
-        /* Asegura que el juego ocupe toda la pantalla limpia */
-        body, html {
+        html, body {
             margin: 0;
             padding: 0;
-            overflow: hidden;
             background-color: #000;
         }
     </style>
