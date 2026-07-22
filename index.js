@@ -1,4 +1,4 @@
-﻿var time = Date.now();
+var time = Date.now();
 
 document.onreadystatechange = function (event) {
     if (event.target.readyState !== "complete") {
