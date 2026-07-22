@@ -2,6 +2,13 @@ FullScreenMario.FullScreenMario.settings.ui = {
     "globalName": "FSM",
     "styleReset": true,
     "sizeFull": true,
+    "sizes": {
+        "Full": {
+            "width": window.innerWidth,
+            "height": window.innerHeight,
+            "full": true
+        }
+    },
     "schemas": [
         {
             "name": "Options",
